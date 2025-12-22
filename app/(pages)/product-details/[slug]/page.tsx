@@ -42,7 +42,7 @@ export default async function Product({ params }: { params: Promise<{ slug: stri
         </div>
       </section>
 
-      <section className="py-12 px-6">
+      <section className="py-16 px-8 lg:py-20 lg:px-12">
         <ProductPage productData={productData} />
        
       </section>

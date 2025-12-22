@@ -220,12 +220,19 @@ export default function FacilitiesSection() {
           </div>
         </div>*/}
       </div>
-      <div className="relative w-screen h-screen mt-1">
+      <div className="relative w-screen h-screen mt-1 ">
         <Image
           src="/assets/images/Sustainable future - V2.jpg"
           alt="fullscreen"  
           fill
-          className="object-cover"
+          className="object-cover hidden lg:block"
+          priority
+        />
+        <Image
+          src="/assets/images/Sustainable - Mobile Video.jpg"
+          alt="fullscreen"  
+          fill
+          className="object-cover lg:hidden"
           priority
         />
 

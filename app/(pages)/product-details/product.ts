@@ -1,3 +1,42 @@
+export interface ProductImage {
+  src: string;
+  alt: string;
+}
+
+export interface ProductOption {
+  id: number;
+  title: string;
+  count: number;
+}
+
+export interface Variation {
+  id: number;
+  length: string;
+  packaging: string;
+  thickness?: string;
+}
+
+export interface Specification {
+  label: string;
+  value: string;
+}
+
+export interface ProductByOption {
+  title: string;
+  description: string;
+  features: string[];
+  variations: Variation[];
+  specifications: Specification[];
+}
+
+export interface ProductData {
+  title: string;
+  description: string;
+  images: ProductImage[];
+  compare_images: ProductImage[];
+  productOptions: ProductOption[];
+  productsByOption: Record<number, ProductByOption>;
+}
 export const products: Record<string, ProductData> = {
   /* -------------------------------------------------------
      PRODUCT 1 — Aluminium Foil
