@@ -30,7 +30,7 @@ export default function ProductPage({ productData }: { productData: ProductData 
     <div className="max-w-7xl mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
         {/* LEFT IMAGE PANEL */}
-        <div className="relative">
+        <div className="relative lg:sticky lg:top-8 lg:self-start">
           <div>
             <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-xl border-2 border-white/30 dark:border-white/20">
               <div className="product-image-glow"></div>
@@ -200,7 +200,7 @@ export default function ProductPage({ productData }: { productData: ProductData 
           </div>
 
           {/* DETAILS */}
-          <div className="bg-gradient-to-br from-white to-cyan-50/50 dark:from-slate-800 dark:to-blue-900/30 rounded-2xl p-6 shadow-xl border-2 border-cyan-500/30 dark:border-cyan-400/30">
+          <div className="bg-gradient-to-br from-white to-cyan-50/50 dark:from-slate-800 dark:to-blue-900/30 rounded-2xl p-6 shadow-xl border-2 border-cyan-500/30 dark:border-cyan-400/30 mt-5 mb-5">
             <h2 className="text-2xl md:text-3xl mb-3 bg-gradient-to-r from-slate-900 via-cyan-900 to-slate-900 dark:from-white dark:via-cyan-200 dark:to-white bg-clip-text text-transparent">
               {activeProduct?.title ?? productData.title}
             </h2>
