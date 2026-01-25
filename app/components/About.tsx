@@ -98,7 +98,7 @@ export default function CTA() {
       </h2>
 
       <p className="text-xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed">
-        Alu-Freshh was built with a clear vision — to create a reliable, high-quality, and scalable food packaging manufacturing platform.
+        Alu-Freshh was built with a clear vision to create a reliable, high-quality, and scalable food packaging manufacturing platform.
        Backed by 54+ years of industry experience, we specialise in<br />producing food-safe packaging materials that meet the evolving requirements of retail, institutional, and export customers.
       </p>
     </div>
@@ -239,7 +239,7 @@ export default function CTA() {
           </svg>
 
           <blockquote className="text-2xl md:text-3xl text-gray-800 dark:text-gray-100 mb-6 italic leading-relaxed">
-            &quot; We don&apos;t just manufacture products. We protect what matters most —
+            &quot; We don&apos;t just manufacture products. We protect what matters most
             your food, your brand, your trust.&quot;
           </blockquote>
 

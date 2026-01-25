@@ -200,7 +200,13 @@ export default function ProductPage({ productData }: { productData: ProductData 
           </div>
 
           {/* DETAILS */}
+<<<<<<< Updated upstream
           <div className="bg-gradient-to-br from-white to-cyan-50/50 dark:from-slate-800 dark:to-blue-900/30 rounded-2xl p-6 shadow-xl border-2 border-cyan-500/30 dark:border-cyan-400/30 mt-5 mb-5">
+=======
+
+          <div className="bg-gradient-to-br from-white to-cyan-50/50 dark:from-slate-800 dark:to-blue-900/30 rounded-2xl p-6 shadow-xl border-2 border-cyan-500/30 dark:border-cyan-400/30 mt-5 mb-5">
+
+>>>>>>> Stashed changes
             <h2 className="text-2xl md:text-3xl mb-3 bg-gradient-to-r from-slate-900 via-cyan-900 to-slate-900 dark:from-white dark:via-cyan-200 dark:to-white bg-clip-text text-transparent">
               {activeProduct?.title ?? productData.title}
             </h2>

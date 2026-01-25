@@ -53,8 +53,8 @@ export const products: Record<string, ProductData> = {
     ],
 
     compare_images: [
-      { src: "/assets/images/foil_After.jpg", alt: "Standard Foil" },
-      { src: "/assets/images/foil_before.jpg", alt: "Alu-Freshh Foil" },
+      { src: "/assets/images/Aluminium Foil Wrap - Before.jpg", alt: "Standard Foil" },
+      { src: "/assets/images/Aluminium Foil Wrap - After.jpg", alt: "Alu-Freshh Foil" },
     ],
 
     productOptions: [
@@ -151,8 +151,8 @@ export const products: Record<string, ProductData> = {
     ],
 
     compare_images: [
-      { src: "/assets/images/After_cling.jpg", alt: "Standard Cling" },
-      { src: "/assets/images/Before_cling.jpg", alt: "Alu-Freshh Cling" },
+      { src: "/assets/images/Before - Cling Film.jpg", alt: "Standard Cling" },
+      { src: "/assets/images/After - Cling Film.jpg", alt: "Alu-Freshh Cling" },
     ],
 
     productOptions: [
@@ -208,8 +208,8 @@ export const products: Record<string, ProductData> = {
     ],
 
     compare_images: [
-      { src: "/assets/images/toiletrollAfter.jpg", alt: "Standard Toilet Roll" },
-      { src: "/assets/images/toiletrollBefore.jpg", alt: "Alu-Freshh Toilet Roll" },
+      { src: "/assets/images/Before - Toilet Paper.jpg", alt: "Standard Toilet Roll" },
+      { src: "/assets/images/After - Toilet Paper.jpg", alt: "Alu-Freshh Toilet Roll" },
     ],
 
     productOptions: [
@@ -252,8 +252,8 @@ export const products: Record<string, ProductData> = {
     ],
 
     compare_images: [
-      { src: "/assets/images/toilet-roll.png", alt: "Standard Paper" },
-      { src: "/assets/images/toilet-roll.png", alt: "Alu-Freshh Paper" },
+      { src: "/assets/images/Before - Food Wrapping Paper.jpg", alt: "Standard Paper" },
+      { src: "/assets/images/After - Food Wrapping Paper.jpg", alt: "Alu-Freshh Paper" },
     ],
 
     productOptions: [
@@ -325,8 +325,8 @@ export const products: Record<string, ProductData> = {
     ],
 
     compare_images: [
-      { src: "/assets/images/profoilafter.jpg", alt: "Standard ProFoil" },
-      { src: "/assets/images/profoilbefore.jpg", alt: "Alu-Freshh ProFoil" },
+      { src: "/assets/images/Profoil - Before.jpg", alt: "Standard ProFoil" },
+      { src: "/assets/images/Profoil - After.jpg", alt: "Alu-Freshh ProFoil" },
     ],
 
     productOptions: [
@@ -372,8 +372,8 @@ export const products: Record<string, ProductData> = {
     ],
 
     compare_images: [
-      { src: "/assets/images/tissue_After.jpg", alt: "Standard Tissues" },
-      { src: "/assets/images/tissue_Before.jpg", alt: "Alu-Freshh Tissues" },
+      { src: "/assets/images/Tissue - Before.jpg", alt: "Standard Tissues" },
+      { src: "/assets/images/Tissue - After.jpg", alt: "Alu-Freshh Tissues" },
     ],
 
     productOptions: [
@@ -493,8 +493,8 @@ export const products: Record<string, ProductData> = {
     ],
 
     compare_images: [
-      { src: "/assets/images/foil_after.jpg", alt: "Standard Foil" },
-      { src: "/assets/images/foil_before.jpg", alt: "Alu-Freshh Foil" },
+      { src: "/assets/images/Aluminium Foil Wrap - Before.jpg", alt: "Standard Foil" },
+      { src: "/assets/images/Aluminium Foil Wrap - After.jpg", alt: "Alu-Freshh Foil" },
     ],
 
     productOptions: [
@@ -544,8 +544,8 @@ export const products: Record<string, ProductData> = {
     ],
 
     compare_images: [
-      { src: "/assets/images/interfoldedsheets.jpg", alt: "Standard Sheets" },
-      { src: "/assets/images/interfoldedsheets1.jpg", alt: "Alu-Freshh Sheets" },
+      { src: "/assets/images/Before - Foil Sheet.jpg", alt: "Standard Sheets" },
+      { src: "/assets/images/After - Foil Sheet.jpg", alt: "Alu-Freshh Sheets" },
     ],
 
     productOptions: [
@@ -594,8 +594,8 @@ export const products: Record<string, ProductData> = {
     ],
 
     compare_images: [
-      { src: "/assets/images/After.jpg", alt: "Standard Containers" },
-      { src: "/assets/images/Before.jpg", alt: "Alu-Freshh Containers" },
+      { src: "/assets/images/Before - Foil Containers.jpg", alt: "Standard Containers" },
+      { src: "/assets/images/After - Foil Containers.jpg", alt: "Alu-Freshh Containers" },
     ],
 
     productOptions: [

@@ -166,7 +166,7 @@ export default function Product() {
                   {/* Search box */}
                   <div className="relative flex-1 group">
                     <input
-                      className="w-full pl-14 pr-4 py-4 rounded-2xl border-2 border-white/20 dark:border-white/10 focus:border-cyan-400/50 dark:focus:border-cyan-500/50 focus:ring-4 focus:ring-cyan-500/20 outline-none transition-all bg-white/80 dark:bg-slate-800/80 backdrop-blur-xl dark:text-white dark:placeholder-gray-400 shadow-lg hover:shadow-xl hover:bg-white/90 dark:hover:bg-slate-800/90"
+                      className="w-full pl-14 pr-4 py-4 rounded-2xl border-2 border-white/20 dark:border-white/10 focus:border-cyan-400/50 dark:focus:border-cyan-500/50 focus:ring-4 focus:ring-cyan-500/20 outline-none transition-all bg-white/80 dark:bg-slate-800/80 backdrop-blur-xl text-black dark:text-white dark:placeholder-gray-400 shadow-lg hover:shadow-xl hover:bg-white/90 dark:hover:bg-slate-800/90"
                       placeholder="Search categories..."
                       type="text"
                       value={search}
@@ -179,7 +179,7 @@ export default function Product() {
                     <select
                       value={selectedCategory}
                       onChange={(e) => setSelectedCategory(e.target.value)}
-                      className="flex items-center justify-between gap-2 px-3 py-2 text-sm w-full h-[56px] rounded-2xl border-2 border-white/20 dark:border-white/10 focus:ring-4 focus:ring-cyan-500/20 shadow-lg hover:shadow-xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-xl dark:text-white hover:bg-white/90 dark:hover:bg-slate-800/90 transition-all duration-300 appearance-none"
+                      className="flex items-center justify-between gap-2 px-3 py-2 text-sm w-full h-[56px] rounded-2xl border-2 border-white/20 dark:border-white/10 focus:ring-4 focus:ring-cyan-500/20 shadow-lg hover:shadow-xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-xl text-black dark:text-white hover:bg-white/90 dark:hover:bg-slate-800/90 transition-all duration-300 appearance-none"
                       style={{ outline: "none" }}
                     >
                       <option value="All">All Categories ({products.length})</option>

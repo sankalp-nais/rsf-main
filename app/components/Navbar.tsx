@@ -1,18 +1,34 @@
 "use client";
-
+ 
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-
+ 
 export default function Navbar() {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const [open, setOpen] = useState(false);
-
-  useEffect(() => setMounted(true), []);
-  if (!mounted) return null;
-
+ 
+  useEffect(() => {
+  setMounted(true);
+}, []);
+ 
+useEffect(() => {
+  if (!mounted) return;
+ 
+  const hash = window.location.hash;
+  if (!hash) return;
+ 
+  const el = document.getElementById(hash.slice(1));
+  if (!el) return;
+ 
+  requestAnimationFrame(() => {
+    el.scrollIntoView({ behavior: "smooth" });
+  });
+}, [mounted]);
+ 
+ 
   return (
     <>
       <nav
@@ -22,7 +38,7 @@ export default function Navbar() {
         <div className="relative rounded-full border backdrop-blur-xl shadow-2xl transition-all duration-300 border-slate-200/50 bg-white/70">
           <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-500/5 via-blue-500/5 to-purple-500/5"></div>
           <div className="absolute inset-0 rounded-full shadow-[inset_0_0_20px_rgba(100,116,139,0.05)]"></div>
-
+ 
           <div className="relative px-4 sm:px-3 md:px-4 py-4 sm:py-2 flex items-center justify-between gap-2 sm:gap-3 md:gap-4 lg:gap-6">
             <Link href="/#home" className="flex items-center shrink-0 group cursor-pointer">
               <Image
@@ -34,7 +50,7 @@ export default function Navbar() {
                 height={40}
               />
             </Link>
-
+ 
             <ul className="hidden lg:flex items-center gap-0.5">
               <li><Link href="/#home" className="px-2.5 py-1.5 text-sm rounded-full transition-all duration-200 whitespace-nowrap text-slate-700 hover:text-slate-900 hover:bg-slate-100/60">Home</Link></li>
               <li><Link href="/#products" className="px-2.5 py-1.5 text-sm rounded-full transition-all duration-200 whitespace-nowrap text-slate-700 hover:text-slate-900 hover:bg-slate-100/60">Products</Link></li>
@@ -42,7 +58,7 @@ export default function Navbar() {
               <li><Link href="/#gallery" className="px-2.5 py-1.5 text-sm rounded-full transition-all duration-200 whitespace-nowrap text-slate-700 hover:text-slate-900 hover:bg-slate-100/60">Gallery</Link></li>
               <li><Link href="/#contact" className="px-2.5 py-1.5 text-sm rounded-full transition-all duration-200 whitespace-nowrap text-slate-700 hover:text-slate-900 hover:bg-slate-100/60">Contact Us</Link></li>
             </ul>
-
+ 
             <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
               <button
                 onClick={() => setTheme(theme === "light" ? "dark" : "light")}
@@ -63,7 +79,7 @@ export default function Navbar() {
                 </svg>
                 <span className="absolute inset-0 rounded-full bg-white/20 opacity-0 group-hover:opacity-100 group-hover:scale-150 transition-all duration-500"></span>
               </button>
-
+ 
               <button
                 onClick={() => setOpen(!open)}
                 className="lg:hidden p-1 rounded-full transition-all shrink-0 text-slate-700 hover:bg-slate-100/60 dark:text-white"
@@ -85,13 +101,13 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-
+ 
       {open && (
         <div className="lg:hidden fixed top-20 left-1/2 -translate-x-1/2 w-[90%] max-w-sm rounded-3xl bg-white/70 dark:bg-slate-700/60 backdrop-blur-xl border border-slate-200/50 shadow-2xl p-6 space-y-4 z-40 animate-fadeIn">
           <Link href="/#home" onClick={() => setOpen(false)} className="block text-slate-700 dark:text-white text-lg">Home</Link>
-          <a href="#products" onClick={() => setOpen(false)} className="block text-slate-700 dark:text-white text-lg">Products</a>
-          <a href="#about" onClick={() => setOpen(false)} className="block text-slate-700 dark:text-white text-lg">About</a>
-          <a href="#gallery" onClick={() => setOpen(false)} className="block text-slate-700 dark:text-white text-lg">Gallery</a>
+          <a href="/#products" onClick={() => setOpen(false)} className="block text-slate-700 dark:text-white text-lg">Products</a>
+          <a href="/#about" onClick={() => setOpen(false)} className="block text-slate-700 dark:text-white text-lg">About</a>
+          <a href="/#gallery" onClick={() => setOpen(false)} className="block text-slate-700 dark:text-white text-lg">Gallery</a>
           <a href="#contact" onClick={() => setOpen(false)} className="block text-slate-700 dark:text-white text-lg">Contact Us</a>
         </div>
       )}
