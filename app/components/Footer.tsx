@@ -19,7 +19,7 @@ export default function Footer() {
               <div className="flex items-center gap-2 mb-4">
                 <a href="#home" className="flex items-center shrink-0 group cursor-pointer">
                   <Image
-                    src="/assets/icons/nav-logo.png"
+                    src="/assets/icons/nav-logo-white.png"
                     alt="ALU FRESHH"
                     className="h-7 sm:h-8 md:h-9 lg:h-10 w-auto transition-all duration-300 group-hover:scale-110 brightness-0 group-hover:drop-shadow-[0_0_8px_rgba(59,130,246,0.5)]"
                     style={{ transform: "none" }}
@@ -176,7 +176,7 @@ export default function Footer() {
                     <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-400 to-indigo-500 border-2 border-slate-900"></div>
                     <div className="w-8 h-8 rounded-full bg-gradient-to-br from-indigo-400 to-purple-500 border-2 border-slate-900"></div>
                   </div>
-                  <span className="text-cyan-400">50+</span>
+                  <span className="text-cyan-400">12+</span>
                 </div>
 
                 <p className="text-sm text-gray-300">Countries trust our products</p>
@@ -199,7 +199,7 @@ export default function Footer() {
                   <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
                   <circle cx="12" cy="10" r="3"></circle>
                 </svg>
-                Our Plant
+                Headquater Address
               </h4>
 
               <div className="space-y-4">

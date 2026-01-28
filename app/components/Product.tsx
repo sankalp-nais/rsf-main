@@ -117,8 +117,8 @@ export default function Product() {
             </h2>
 
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-8">
-              Discover our comprehensive range of high-quality aluminum foil and
-              packaging solutions
+              Discover our comprehensive range of high-quality aluminum foil and food
+              packaging Products
             </p>
 
             {/* FIXED BUTTON */}

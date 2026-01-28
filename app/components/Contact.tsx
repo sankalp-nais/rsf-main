@@ -40,7 +40,7 @@ export default function Contact() {
             </h2>
 
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto leading-relaxed">
-                Got questions? Need samples? Our team replies within 24 hours — no bots, no automated responses. Just real
+                Got questions? Need samples? Our team replies within 24 hours no bots, no automated responses. Just real
                 humans who care about your business.
             </p>
         </div>
@@ -51,7 +51,7 @@ export default function Contact() {
             <div className="lg:col-span-2 space-y-4">
                 
                 {/* Visit Plant */}
-                <div className="group relative" style={{ opacity: 1, transform: "none" }}>
+                {/*<div className="group relative" style={{ opacity: 1, transform: "none" }}>
                     <div className="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 relative bg-white/90 dark:bg-slate-800/90 backdrop-blur-xl rounded-2xl p-6 border-2 border-gray-200 dark:border-slate-700 hover:border-orange-400 dark:hover:border-orange-500 transition-all duration-300 overflow-hidden shadow-lg hover:shadow-xl">
                         <div className="absolute inset-0 bg-gradient-to-br from-cyan-500 to-blue-600 opacity-5" style={{ opacity: 0 }}></div>
 
@@ -82,7 +82,7 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>*/}
 
                 {/* Call */}
                 <div className="group relative" style={{ opacity: 1, transform: "none" }}>

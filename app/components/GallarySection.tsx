@@ -262,16 +262,16 @@ export default function FacilitiesSection() {
       </div>
 
 
-    <div className="py-10 bg-slate-900">
+    <div className="py-10 relative bg-white/80 dark:bg-slate-800/80 backdrop-blur-xl rounded-2xl p-6 border-2 border-gray-200 dark:border-slate-700 hover:border-cyan-400 dark:hover:border-cyan-500 transition-all duration-300 overflow-hidden ">
       <div className="max-w-7xl mx-auto px-3">
 
 
-        <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12">
+        <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12 text-gray-600 dark:text-gray-300">
           Serving a diverse range of Industries
         </h2>
 
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 text-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 text-center text-3xl md:text-4xl font-semibold text-center mb-12 text-gray-600 dark:text-gray-300">
 
 
           <a href="#" className="flex flex-col items-center gap-2 group">

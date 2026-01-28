@@ -99,7 +99,7 @@ export default function CTA() {
 
       <p className="text-xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed">
         Alu-Freshh was built with a clear vision to create a reliable, high-quality, and scalable food packaging manufacturing platform.
-       Backed by 54+ years of industry experience, we specialise in<br />producing food-safe packaging materials that meet the evolving requirements of retail, institutional, and export customers.
+       Backed by more than 5 Decades with group experience, we specialise in<br />producing food-safe packaging materials that meet the evolving requirements of retail, institutional, and export customers.
       </p>
     </div>
 
@@ -124,7 +124,7 @@ export default function CTA() {
             </svg>
           </div>
           <div className="relative text-4xl md:text-5xl mb-2 bg-gradient-to-r from-slate-900 to-cyan-900 dark:from-white dark:to-cyan-200 bg-clip-text text-transparent">
-            <AnimatedCounter max={500} duration={2000} suffix="+"  triggerId="about" />
+            <AnimatedCounter max={1000} duration={2000} suffix="+"  triggerId="about" />
           </div>
           <div className="relative text-sm text-gray-600 dark:text-gray-300">
            Happy Clients
@@ -154,7 +154,7 @@ export default function CTA() {
             <AnimatedCounter max={100} duration={2000} suffix="+"  triggerId="about" />
           </div>
           <div className="relative text-sm text-gray-600 dark:text-gray-300">
-            Products
+            Products(250+ SKUs)
           </div>
         </div>
       </div>
@@ -180,10 +180,10 @@ export default function CTA() {
             </svg>
           </div>
           <div className="relative text-4xl md:text-5xl mb-2 bg-gradient-to-r from-slate-900 to-cyan-900 dark:from-white dark:to-cyan-200 bg-clip-text text-transparent">
-            <AnimatedCounter max={20} duration={2000} suffix="+"  triggerId="about" />
+            <AnimatedCounter max={5} duration={2000} suffix="+"  triggerId="about" />
           </div>
           <div className="relative text-sm text-gray-600 dark:text-gray-300">
-            Years Experience
+            Decades Group Experience
           </div>
         </div>
       </div>
@@ -245,10 +245,11 @@ export default function CTA() {
 
           <div className="text-gray-600 dark:text-gray-300">
             <p className="text-lg">The Alu-Freshh Team</p>
-            <p className="text-sm mt-1">Building quality since 1998</p>
+            <p className="text-sm mt-1"></p>
           </div>
         </div>
       </div>
+      
     </div>  
   </div>
   
